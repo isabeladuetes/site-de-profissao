@@ -202,7 +202,6 @@ footer a:hover {
   color: #353535;
 }
 
-/* ===== CURIOSIDADES ===== */
 .curiosidades {
   padding: 80px 8%;
   text-align: center;
@@ -320,72 +319,6 @@ footer a:hover {
   line-height: 1.6;
 }
 
-/* ===== FORMULÁRIO ===== */
-.contato-form {
-  background-color: #ffffff;
-  text-align: center;
-  padding: 80px 8%;
-}
-
-.contato-form h3 {
-  font-size: 1.5rem;
-  color: #b57f50;
-  margin-bottom: 10px;
-}
-
-.contato-form p {
-  color: #555;
-  margin-bottom: 30px;
-}
-
-form {
-  max-width: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-label {
-  margin-bottom: 6px;
-  color: #444;
-  font-weight: 500;
-}
-
-input,
-textarea {
-  padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-  background-color: #fdfcf9;
-}
-
-input:focus,
-textarea:focus {
-  outline: none;
-  border-color: #b57f50;
-  box-shadow: 0 0 4px rgba(181, 127, 80, 0.3);
-}
-
-button {
-  background-color: #b57f50;
-  color: #fff;
-  border: none;
-  padding: 12px;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #a56e40;
-}
-
 /* ===== RESPONSIVIDADE ===== */
 @media (max-width: 768px) {
   .pergunta {
@@ -397,20 +330,19 @@ button:hover {
   }
 }
 
-/* ===== GALERIA ===== */
 .galeria {
   padding: 60px 10%;
   text-align: center;
 }
 
 .galeria h2 {
-  color: #a56e40;
+  color: #ff7cae;
   font-size: 2em;
   margin-bottom: 10px;
 }
 
 .galeria .introducao {
-  color: #555;
+  color: #353535;
   font-size: 1.1em;
   max-width: 700px;
   margin: 0 auto 40px;
@@ -441,7 +373,7 @@ button:hover {
 .foto p {
   padding: 10px;
   font-size: 0.95em;
-  color: #444;
+  color: #353535;
 }
 
 .foto:hover {
