@@ -32,7 +32,7 @@ header {
 
 .logo h1 {
   font-size: 1.3rem;
-  color: #353535; 
+  color: #353535;
   font-weight: 600;
 }
 
@@ -117,6 +117,7 @@ nav a:hover {
   color: #353535;
   font-weight: 300;
 }
+
 
 footer {
   background-color: #ffdae8;
@@ -336,7 +337,7 @@ footer a:hover {
 }
 
 .galeria h2 {
-  color: #ff7cae;
+  color: #353535;
   font-size: 2em;
   margin-bottom: 10px;
 }
@@ -387,7 +388,114 @@ footer a:hover {
     flex-direction: column;
     align-items: center;
   }
+
   .foto {
     width: 90%;
+  }
+}
+
+.conclusao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  gap: 40px;
+  background: #fefefe;
+  flex-wrap: wrap;
+}
+
+.texto {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.texto h2 {
+  color: #353535;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.texto p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.imagem {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.imagem img {
+  width: 450px;
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+/* ===== RESPONSIVIDADE ===== */
+/* Tablets */
+@media (max-width: 992px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  .conclusao {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 30px;
+  }
+
+  .texto h2 {
+    font-size: 1.8rem;
+  }
+
+  .imagem img {
+    width: 380px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+  header {
+    padding: 15px 20px;
+  }
+
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  nav a {
+    font-size: 0.95rem;
+  }
+
+  .conclusao {
+    padding: 30px 20px;
+  }
+
+  .texto h2 {
+    font-size: 1.6rem;
+  }
+
+  .texto p {
+    font-size: 0.95rem;
+  }
+
+  .imagem img {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  footer {
+    font-size: 0.85rem;
   }
 }
